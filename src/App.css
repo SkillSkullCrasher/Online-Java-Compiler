@@ -1,0 +1,55 @@
+
+*{
+  overflow: none;
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+h1,p{
+  color: white;
+  /* font-size: 30px; */
+}
+p{
+  /* width: 100%; */
+  /* justify-content: flex-end; */
+  /* margin: 40px; */
+
+
+}
+textarea{
+  background-color: transparent;
+  outline: none;
+  /* outline: 1px solid red; */
+  color: rgb(170, 249, 170);
+  
+}
+
+button{
+  background-color: black;
+  outline: 1px solid rgb(5, 245, 21);
+  color: green;
+  font-size: 20px;
+  border-radius: 50%;
+  padding: 4px;
+  margin-bottom: 2px;
+}
+
+.App {
+  text-align: center;
+  margin: 0;
+  background: url("https://cdn.vectorstock.com/i/preview-1x/80/34/template-coding-and-programming-theme-green-vector-23098034.jpg");
+  height: 100vh;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: none;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.filename,.out{
+  color: rgb(170, 249, 170);
+}
+.out{
+  /* height: 20%; */
+}
